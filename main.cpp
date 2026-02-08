@@ -1,6 +1,10 @@
 #include <iostream>
 
+int square(int x) {
+    return x * x;
+}
+
 int main() {
-    std::cout << "Hello GitHub CI/CD!" << std::endl;
+    std::cout << "The square of 5 is: " << square(5) << std::endl;
     return 0;
 }
